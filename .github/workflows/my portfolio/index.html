@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5d1aca8628.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="image/Ntombifuthi..logo.png" class="logo" alt="Logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Ntombifuthi</span><br> Mabanga</h1>
+            </div>
+        </div>
+    </div>
+    <!-- About Section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1"><img src="image/second pic.jpg" alt="Profile Image"></div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm a passionate web developer with expertise in HTML, CSS, JavaScript, and more. I love turning ideas into beautiful, interactive websites.
+                        I have a great desire to transfer into a technology-focused career and am a very motivated person. While I have a background in education that includes my current LLB studies at the University of South Africa, I have always had a strong interest in technology and have taken initiative to gain the necessary knowledge and abilities. I believe my legal education has given me excellent research and analytical skills that I can apply to the tech sector. I am adept at delving into intricate problems, analyzing data, and coming to wise decisions—all skills that are crucial in the IT industry.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>JAVA</span><br>Web Application</li>
+                            <li><span>HTML</span><br>Web Development</li>
+                            <li><span>CSS</span><br>Structuring Web Apllication</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2019 - 2020</span><br>packer</li>
+                            <li><span>2020 - 2021</span><br>landscape</li>
+                            <li><span>2022 - 2022</span><br>sales person</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Matric</span><br>James nxumalo agricultural school</li>
+                            <li><span>LLB</span><br>University of South Africa</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services Section -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Shell & C</h2>
+                    <p>i did few project in shell script & C#</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop"></i>
+                    <h2>Front-End</h2>
+                    <p>CSS<br>HTML<br>JavaScript</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>Back-End</h2>
+                    <p>java,<br>JavaScript</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------------portfolio-------------->
+    <div id="portfolio">
+          <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/tesla with black.jpeg" alt="">
+                    <div class="layer">
+                        <h3>Electic car website</h3>
+                        <p>High Quality Electric vehicle with Competitive Price. Safe Trading Electric vehicle on Leading B2B Platform.</p>
+                        <a href="https://website-zaio-portfolio.netlify.app"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/net with red.png" alt="">
+                    <div class="layer">
+                        <h3>Streaming Platform</h3>
+                        <p> streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected</p>
+                        <a href="https://netflix-zaio-clone-website.netlify.app/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/tweetpter with hmmm.png" alt="">
+                    <div class="layer">
+                        <h3>Social media</h3>
+                        <p>the app connect you to the talented people around the world</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="£" class="btn">See More</a>
+          </div>
+    </div>
+    <!---------------------contact------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="coltact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>mabangantombifuthi@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>0796404025</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/home"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="image/cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet'">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+       <div class="copyright">
+        <p>Copyright @ntombifuthi.<i class="fa-solid fa-face-grin-hearts"></i></p>
+       </div>
+    </div>
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            document.getElementById(tabname).classList.add("active-tab");
+
+            event.currentTarget.classList.add("active-link");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0"
+        } 
+        function closemenu(){
+            sidemenu.style.right = "-200px"
+        } 
+    </script>
+    <script>
+        const scriptURL = '<https://script.google.com/macros/s/AKfycbyB-mNSPBliTKZJRHu5I_uXac6fGK_3uqbP7Upk8RvUPKpdtF_QdwnpU92ZyVqViMpCCw/exec>'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
